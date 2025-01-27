@@ -67,5 +67,5 @@ app.get("/items", (req, res) => {
         "Unnamed: 20": null
     }
 ]
-  res.send(tab);
+  res.json(tab);
 });
