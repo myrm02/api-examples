@@ -15,7 +15,7 @@ app.listen(5000, () => {
 });
 
 app.post("/send", (req, res) => {
-  res.send(req.body);
+  res.json(req.body);
 });
 
 app.get("/items", (req, res) => {
