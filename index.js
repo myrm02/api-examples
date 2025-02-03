@@ -21,7 +21,7 @@ app.listen(5000, () => {
 // });
 
 app.post("/fileInput", (req, res) => {
-  const formData = req.query; // Retrieve query parameters
+  const formData = req.body; // Retrieve query parameters
   console.log('Form Data:', formData);
   res.json(formData);
 });
